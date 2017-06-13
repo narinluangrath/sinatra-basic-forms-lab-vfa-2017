@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  </head>
+
+  <body>
+    <form method="POST" action="/display">
+
+      <p> Enter puppy name: <input type="text" name="name"> </input> </p>
+      <p> Enter puppy breed: <input type="text" name="breed"> </input> </p>
+      <p> Enter puppy age: <input type="text" name="age"> </input> </p>
+
+      <input type="submit" value="submit">
+
+    </form>
+  </body>
+</html>
+
+<!--
+    it 'renders the form' do
+      visit '/new'
+      expect(page).to have_selector("form")
+      expect(page).to have_field(:name)
+      expect(page).to have_field(:breed)
+      expect(page).to have_field(:age)
+    end
+  end -->
